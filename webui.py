@@ -279,5 +279,5 @@ with gr.Blocks(css=block_css) as demo:
  .launch(server_name='0.0.0.0',
          server_port=7860,
          show_api=False,
-         share=False,
+         share=true,
          inbrowser=False))
